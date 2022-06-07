@@ -1,17 +1,7 @@
 <script lang="ts">
-    // import { Hamburger } from 'svelte-hamburgers'
-    // import { copy } from 'svelte-copy'
-
-    import clickOutside from "@svackages/click-outside-action";
-    const awesomeCallback = () => console.log('AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHhh');
+    import { copy } from 'svelte-copy'
 </script>
 
-<!-- <Hamburger /> -->
-
-<!-- <button use:copy={"something or other"}>
-    Copy something -->
-<!-- </button> -->
-
-<div use:clickOutside={awesomeCallback}>
-    AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHh
-</div>
+<button use:copy={"nice it loaded"}>
+    I would like to copy something if the page loaded
+</button>
