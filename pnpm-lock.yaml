@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@svackages/click-outside-action': ^1.0.3
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   svelte: ^3.44.0
@@ -12,6 +13,7 @@ specifiers:
   typescript: ~4.6.2
 
 devDependencies:
+  '@svackages/click-outside-action': 1.0.3
   '@sveltejs/adapter-auto': 1.0.0-next.50
   '@sveltejs/kit': 1.0.0-next.348_svelte@3.48.0
   svelte: 3.48.0
@@ -89,6 +91,10 @@ packages:
     dependencies:
       estree-walker: 2.0.2
       picomatch: 2.3.1
+    dev: true
+
+  /@svackages/click-outside-action/1.0.3:
+    resolution: {integrity: sha512-/ZLa/g+ZMdDQxHFcE0vsiLbMLVARENiaDOPXYgNneOGthB8deeSiyVTvTiaTnIMWmiPRyYp9ZS0RhcD4ibvzNw==}
     dev: true
 
   /@sveltejs/adapter-auto/1.0.0-next.50:
