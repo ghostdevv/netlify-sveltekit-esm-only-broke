@@ -1,6 +1,6 @@
 <script lang="ts">
-    // import { Hamburger } from 'svelte-hamburgers'
-    import { copy } from 'svelte-copy'
+    import { Hamburger } from 'svelte-hamburgers'
+    // import { copy } from 'svelte-copy'
 </script>
 
 <Hamburger />
