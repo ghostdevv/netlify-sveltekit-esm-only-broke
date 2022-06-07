@@ -1,2 +1,2 @@
-[[functions]]
-bundler = 'yes'
+[functions]
+node_bundler = 'yes'
